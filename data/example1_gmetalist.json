@@ -1,0 +1,71 @@
+{
+    "ingest_type": "GMetaList",
+    "ingest_data": {
+        "gmeta": [
+            {
+                "subject": "urn:ogf:glue2:uiuc.edu:resource:2270:GMetaList1",
+                "visible_to": ["public"],
+                "content": {
+                    "Abstract": "JPJP Are you interested in adding programming skills to your professional toolkit? If so, whether you're a student kicking off your career, a mid-level manager who's always wanted to learn programming, or even a seasoned developer interested in tackling a new language, then this course is for you. Follow Peggy Fisher as she explains how to get started with C++, a core programming language. Using C++ 11, Peggy covers the basics such as how to compile and run C++ programs, and how to create variables. She also dives into working with data, as well as decision statements, creating functions, and using arrays. To help you grasp the material, she challenges you to write programs that include the aforementioned features.",
+                    "Authors": [],
+                    "Cost": null,
+                    "Duration": 240,
+                    "Expertise_Level": [
+                        "All"
+                    ],
+                    "Keywords": [
+                        "linda"
+                    ],
+                    "Language": "en",
+                    "Learning_Outcome": [
+                        "Proficient"
+                    ],
+                    "Learning_Resource_Type": "recorded lesson",
+                    "License": null,
+                    "Provider_ID": "urn:ogf:glue2:access-ci.org:organization:uchicago.edu",
+                    "Rating": 4.4,
+                    "Resource_URL_Type": "URL",
+                    "Start_Datetime": "2024-01-26T12:20:51.668905",
+                    "Target_Group": [
+                        "Research groups"
+                    ],
+                    "Title": "C++ Essential Training for Career Changers Gmetalist1",
+                    "URL": "https://www.lynda.com/C-tutorials/C-Essential-Training-Career-Changers/572157-2.html",
+                    "Version_Date": "2023-12-14T05:03:28.952096Z"
+                }
+            },
+            {
+                "subject": "urn:ogf:glue2:uiuc.edu:resource:2270:GMetaList2",
+                "visible_to": ["public"],
+                "content": {
+                    "Abstract": "JPJP Are you interested in adding programming skills to your professional toolkit? If so, whether you're a student kicking off your career, a mid-level manager who's always wanted to learn programming, or even a seasoned developer interested in tackling a new language, then this course is for you. Follow Peggy Fisher as she explains how to get started with C++, a core programming language. Using C++ 11, Peggy covers the basics such as how to compile and run C++ programs, and how to create variables. She also dives into working with data, as well as decision statements, creating functions, and using arrays. To help you grasp the material, she challenges you to write programs that include the aforementioned features.",
+                    "Authors": [],
+                    "Cost": null,
+                    "Duration": 240,
+                    "Expertise_Level": [
+                        "All"
+                    ],
+                    "Keywords": [
+                        "linda"
+                    ],
+                    "Language": "en",
+                    "Learning_Outcome": [
+                        "Proficient"
+                    ],
+                    "Learning_Resource_Type": "recorded lesson",
+                    "License": null,
+                    "Provider_ID": "urn:ogf:glue2:access-ci.org:organization:uchicago.edu",
+                    "Rating": 4.4,
+                    "Resource_URL_Type": "URL",
+                    "Start_Datetime": "2024-01-26T12:20:51.668905",
+                    "Target_Group": [
+                        "Research groups"
+                    ],
+                    "Title": "C++ Essential Training for Career Changers GMetaList2",
+                    "URL": "https://www.lynda.com/C-tutorials/C-Essential-Training-Career-Changers/572157-2.html",
+                    "Version_Date": "2023-12-14T05:03:28.952096Z"
+                }
+            }
+        ]
+    }
+}
