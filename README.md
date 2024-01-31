@@ -7,41 +7,41 @@ to laod sample data into the an hpc-ed Alpha v1 testing catalog. Use it as an ex
 you can modify to load your own training metadata. If your input metadata is in a different
 format than the example, the program has a block where you can made the necessary changes.
 
--- My project directory
+* My project directory
 
-`$ mkdir myproject`
-`$ cd myproject`
+	$ mkdir myproject
+	$ cd myproject
 
--- Get the HPC-ED GitHub repo that has the examples
+* Get the HPC-ED GitHub repo that has the examples
 
-`$ git clone https://github.com/HPC-ED/HPC-ED_Catalog-Definition.git`
+	$ git clone https://github.com/HPC-ED/HPC-ED_Catalog-Definition.git
 
--- Make PROD symlink in myproject point to that repo
+* Make PROD symlink in myproject point to that repo
 
-$ ln -s HPC-ED_Catalog-Definition PROD
+	$ ln -s HPC-ED_Catalog-Definition PROD
 
--- Create a Python3 with the required packages
+* Create a Python3 with the required packages
 
-$ python3 -m venv mypython
-$ pip install -r PROD/requirements.txt
-$ pip install --upgrade pip
-$ source mypython/bin/activate
+	$ python3 -m venv mypython
+	$ pip install -r PROD/requirements.txt
+	$ pip install --upgrade pip
+	$ source mypython/bin/activate
 
--- Directories needed by the example
+* Directories needed by the example
 
-$ mkdir conf data var
+	$ mkdir conf data var
 
--- Copy the config and set the GLOBUS_CLIENT_ID and GLOBUS_CLIENT_SECRET values
--- You can modify the PROVIDER_ID to make yourself the publisher/owner of example entries
+* Copy the config and set the GLOBUS_CLIENT_ID and GLOBUS_CLIENT_SECRET values
+* You can modify the PROVIDER_ID to make yourself the publisher/owner of example entries
 
-$ cp PROD/conf/hpc-ed_load_example1.conf conf/
-$ vi conf/hpc-ed_load_example1.conf
+	$ cp PROD/conf/hpc-ed_load_example1.conf conf/
+	$ vi conf/hpc-ed_load_example1.conf
 
--- Run the example
+* Run the example
 
-$ python3 ./PROD/bin/hpc-ed_load_example1.py -c conf/hpc-ed_load_example1.conf -s file:PROD/data/example1_hpc-ed_v1.json -l debug
+	$ python3 ./PROD/bin/hpc-ed_load_example1.py -c conf/hpc-ed_load_example1.conf -s file:PROD/data/example1_hpc-ed_v1.json -l debug
 
--- Look at the logs
+* Look at the logs
 
-$ cat var/example1_hpc-ed_v1.log
+	$ cat var/example1_hpc-ed_v1.log
 
