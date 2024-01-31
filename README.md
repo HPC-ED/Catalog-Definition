@@ -2,18 +2,19 @@
 
 ## Loading HPC-ED metadata using hpc-ed_load_example1.py
 
-The hpc-ed_load_example1.py program can be run anyone with authorized credentials
-to laod sample data into the an hpc-ed Alpha v1 testing catalog. Use it as an
-example that you can modify to load your own trainign metadata in other formats.
+The hpc-ed_load_example1.py program can be run by anyone that has authorized credentials
+to laod sample data into the an hpc-ed Alpha v1 testing catalog. Use it as an example that
+you can modify to load your own training metadata. If your input metadata is in a different
+format than the example, the program has a block where you can made the necessary changes.
 
 -- My project directory
 
-$ mkdir myproject
-$ cd myproject
+`$ mkdir myproject`
+`$ cd myproject`
 
 -- Get the HPC-ED GitHub repo that has the examples
 
-$ git clone https://github.com/HPC-ED/HPC-ED_Catalog-Definition.git
+`$ git clone https://github.com/HPC-ED/HPC-ED_Catalog-Definition.git`
 
 -- Make PROD symlink in myproject point to that repo
 
