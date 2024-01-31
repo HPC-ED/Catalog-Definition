@@ -9,8 +9,6 @@ verify_ssl = true
 globus-cli = "*"
 globus-sdk = "*"
 pid = "*"
-pytz = "*"
-requests = "*"
 
 [requires]
 python_version = "3.10"

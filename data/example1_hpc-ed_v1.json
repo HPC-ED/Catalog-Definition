@@ -1,0 +1,57 @@
+[
+    {
+        "Title": "Introduction to HPC-ED catalog publishing",
+        "URL": "https://hpc-ed.github.io",
+        "Resource_URL_Type": "URL",
+        "Abstract": "Introduction to publishing training metadata to HPC-ED catalogs",
+        "Authors": ["Susan Mehringer", "Richard Knepper", "Kate Cahill"],
+        "Cost": null,
+        "Duration": 120,
+        "Expertise_Level": [
+            "All"
+        ],
+        "Keywords": [
+            "training"
+        ],
+        "Language": "en",
+        "Learning_Outcome": [
+            "Proficient"
+        ],
+        "Learning_Resource_Type": "activity plan",
+        "License": null,
+        "Rating": 4.8,
+        "Target_Group": [
+            "Publishers"
+        ],
+        "Version_Date": "2023-12-14T05:03:28.952096Z",
+        "LOCAL_ID": "training1"
+    },
+    {
+        "Title": "Advanced HPC-ED catalog publishing",
+        "URL": "https://hpc-ed.github.io",
+        "Resource_URL_Type": "URL",
+        "Abstract": "Advanced methods for publishing training metadata to HPC-ED catalogs",
+        "Authors": ["JP Navarro", "Jeaime Powell", "Mary Thomas", "David Joiner"],
+        "Cost": null,
+        "Duration": 60,
+        "Expertise_Level": [
+            "Intermediate",
+            "Advanced"
+        ],
+        "Keywords": [
+            "training"
+        ],
+        "Language": "en",
+        "Learning_Outcome": [
+            "Proficient"
+        ],
+        "Learning_Resource_Type": "activity plan",
+        "License": null,
+        "Rating": 4.4,
+        "Target_Group": [
+            "Publishers"
+        ],
+        "Version_Date": "2023-12-14T05:03:28.952096Z",
+        "LOCAL_ID": "training2"
+    }
+]
