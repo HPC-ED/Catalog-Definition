@@ -31,7 +31,7 @@ $ cp PROD/conf/hpc-ed_load_example1.conf conf/
 $ vi conf/hpc-ed_load_example1.conf
 
 -- Run the example
-$ python3 -m pdb ./PROD/bin/hpc-ed_load_example1.py -s file:PROD/data/example1_hpc-ed_v1.json -l debug
+$ python3 ./PROD/bin/hpc-ed_load_example1.py -c conf/hpc-ed_load_example1.conf -s file:PROD/data/example1_hpc-ed_v1.json -l debug
 -- Look at the logs
 $ cat var/example1_hpc-ed_v1.log
 
