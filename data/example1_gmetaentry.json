@@ -3,6 +3,7 @@
     "ingest_data": {
         "subject": "urn:ogf:glue2:uiuc.edu:resource:2270:GMetaEntry",
         "visible_to": ["public"],
+        "id": "std",
         "content": {
             "Abstract": "JPJP Are you interested in adding programming skills to your professional toolkit? If so, whether you're a student kicking off your career, a mid-level manager who's always wanted to learn programming, or even a seasoned developer interested in tackling a new language, then this course is for you. Follow Peggy Fisher as she explains how to get started with C++, a core programming language. Using C++ 11, Peggy covers the basics such as how to compile and run C++ programs, and how to create variables. She also dives into working with data, as well as decision statements, creating functions, and using arrays. To help you grasp the material, she challenges you to write programs that include the aforementioned features.",
             "Authors": [],
