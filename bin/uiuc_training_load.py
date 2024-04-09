@@ -278,7 +278,7 @@ class Router():
 #            self.cur[item.cider_resource_id] = item
 #        self.logger.debug('Retrieved from database {}/items'.format(len(self.cur)))
 
-        PROVIDER = 'urn:ogf:glue2:access-ci.org:organization:uchicago.edu'
+        PROVIDER = 'urn:ogf.org:glue2:access-ci.org:resource:cider:infrastructure.organizations:897'
         TYPES = ['activity plan', 'assessment', 'assessment item', 'educator curriculum guide', 'lesson plan', 'physical learning resource', 'recorded lesson', 'supporting document', 'textbook', 'unit plan']
         TYPES_LEN = len(TYPES)
         OUTCOMES = ['Basic understanding', 'Proficient', 'Deep knowledge']
